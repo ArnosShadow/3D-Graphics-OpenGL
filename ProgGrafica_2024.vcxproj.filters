@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainPRGR_2024.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="libprgr\EventManager.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="libprgr\Object3D.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="libprgr\Render.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="libprgr\Camera.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="libprgr\glProgram.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="libprgr\Shader.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="libprgr\Material.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="libprgr\Texture.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="libprgr\light.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="libprgr\OrbitalLight.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="libprgr\BV.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libprgr\vectorMath.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="libprgr\EventManager.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="libprgr\vertex.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="libprgr\Object3D.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="libprgr\Render.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="libprgr\Camera.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="libprgr\glProgram.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="libprgr\Shader.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="libprgr\Material.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="libprgr\Texture.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="libprgr\light.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="libprgr\OrbitalLight.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="libprgr\BV.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="data\bullet.png">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="data\front.png">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="data\ship.png">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="data\blue.png">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="data\ladrillos.jpg">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\cube.fiis">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="data\cubeSplit.fiis">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="data\cubeTexture.fiis">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="data\plano.fiis">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="data\shader.frag">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="data\shader.vert">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="data\spaceShip.fiis">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="data\triangulos.fiis">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="data\esfera.fiis">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="data\cajaLadrillos.fiis">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="data\paredEste.fiis">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="data\paredNorte.fiis">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="data\paredOeste.fiis">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="data\paredSur.fiis">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="data\suelo.fiis">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+  </ItemGroup>
+</Project>

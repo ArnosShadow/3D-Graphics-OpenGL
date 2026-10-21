@@ -1,0 +1,62 @@
+//posiciones
+1:  5.958443,-1.100000,-1.100000
+2:  5.958443,-1.100000,1.100000
+3:  5.958443,1.100000,-1.100000
+4:  5.958443,1.100000,1.100000
+5:  5.958443,1.100000,-1.100000
+6:  5.958443,-1.100000,1.100000
+end
+//colores
+1: 0.800000,0.800000,0.800000,1.000000
+2: 0.800000,0.800000,0.800000,1.000000
+3: 0.800000,0.800000,0.800000,1.000000
+4: 0.800000,0.800000,0.800000,1.000000
+5: 0.800000,0.800000,0.800000,1.000000
+6: 0.800000,0.800000,0.800000,1.000000
+end
+//normales
+1: 1.000000,0.000000,0.000000,0
+2: 1.000000,0.000000,0.000000,0
+3: 1.000000,0.000000,0.000000,0
+4: 1.000000,0.000000,0.000000,0
+5: 1.000000,0.000000,0.000000,0
+6: 1.000000,0.000000,0.000000,0
+end
+//coordenadas de texturas
+1: 0.000000,0.000000 
+2: 1.000000,0.000000 
+3: 0.000000,1.000000 
+4: 1.000000,1.000000 
+5: 0.000000,1.000000 
+6: 1.000000,0.000000 
+end
+data/ladrillos.jpg
+end
+//num faces: 2
+//num vertices 6
+1: 2,5,1,
+2: 6,4,3,
+end
+data/shader.vert
+data/shader.frag
+end
+// id de los atributos/uniform
+attributeVertPos=vPos
+attributeVertColor=vColor
+attributeVertNormal=vNorm
+attributeVertTextureCoordinates=vTextureCoord
+uniformMVP=MVP
+uniformModel=M
+uniformIsOutline=isOutline
+uniformTextureColor=textureColor
+uniformDiffuseConstant=Kd
+uniformSpecularConstant=Ks
+uniformMaterialShinny=shinny
+uniformNumLights=numLights
+uniformLightPosition=lightPos
+uniformLightColor=lightColor
+uniformLightIntensity=Ik
+uniformLightType=lightType
+uniformLightDirection=lightDirection
+uniformCameraPosition=cameraPos
+end
